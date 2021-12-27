@@ -12,9 +12,9 @@ int what_is_your_name(int k,int m){
 }
 int main(){
 	int m,n;
-	printf("ÇëÊäÈë½×Êı£º");
+	printf("è¯·è¾“å…¥é˜¶æ•°");
 	scanf("%d",&m);
-	printf("ÇëÊäÈëµÚ¼¸¸ö£º");
+	printf("è¯·è¾“å…¥ç¬¬å‡ ä¸ª");
 	scanf("%d",&n);
 	int t = what_is_your_name(m,n);
 	printf("%d",t);

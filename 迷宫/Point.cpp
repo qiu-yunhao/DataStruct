@@ -55,5 +55,5 @@ void Point::setValue(int value){
 }
 
 void Point::show(){
-    cout<<"横坐标:"<<this->x << "纵坐标："<<this->y << endl;
+    cout<<"("<<this->x << ","<<this->y <<")->";
 }

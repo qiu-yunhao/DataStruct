@@ -4,7 +4,6 @@ int main(){
 	a[1] = 2;
 	scanf("%d",&n);
 	if(n>=10||n<1){
-		printf("³ö´í");
 		return 0;
 	}
 	for(int i = 2;i<10;i++){

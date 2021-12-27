@@ -104,7 +104,8 @@ int Judge(string s){
 //3-18
 bool Judge_kuohao(string s){
     stack<char> stk;
-    for(char ch : s){
+    for(int i = 0 ; i < s.length(); i++){
+        char ch = s[i];
         if(ch == '(' || ch == '['){
             stk.push(ch);
         }else if(ch == ')') {
@@ -127,7 +128,8 @@ bool Judge_kuohao(string s){
 //3-19
 bool Judge_3(string s){
     stack<char> stk;
-    for(char ch : s){
+    for(int i = 0 ; i < s.length(); i++){
+        char ch = s[i];
         if(ch!='(' && ch !=')' && ch!='[' && ch!=']' && ch!='{' && ch!='}'){
             continue;
         }else{
@@ -163,7 +165,8 @@ int Change(string s){
     stack<char> st1;
     stack<int> st2;
     bool key = true;
-    for(char ch : s){
+    for(int i = 0  ; i< s.length();i++){
+        char ch = s[i];
         if(ch == ' '){
             continue;
         } else if(ch>='0' && ch <='9'){
@@ -271,6 +274,9 @@ int g(int m,int n){
         return 0;
     }else if(m>0 && n>=0){
         return g(m-1,2*n) + n;
+    }else{
+        cerr<<"something wrong"<<endl;
+        exit(-1);
     }
 }
 
@@ -280,6 +286,9 @@ int F(int n){
         return 1;
     }else if(n>0){
         return n*F(n/2);
+    }else{
+        cerr<<"something wrong"<<endl;
+        exit(-1);
     }
 }
 

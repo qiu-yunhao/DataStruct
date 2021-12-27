@@ -4,7 +4,7 @@ int main(){
 	int n,x;
 	scanf("%d %d",&x,&n);
 	if(n>10){
-		printf("球球了，我不想用malloc！");
+		printf("");
 		return 0;
 	}
 	int a[10] = {0};

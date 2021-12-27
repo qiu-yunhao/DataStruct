@@ -46,6 +46,7 @@ Node*** getRoot(int **nums){
             n[i][j] = new Node(p[i][j]);
         }
     }
+    /*
     for(int i = 0 ; i < 9 ; i++){
         for(int j = 0 ; j < 12 ;j++){
             if(i == 0){
@@ -69,7 +70,7 @@ Node*** getRoot(int **nums){
                 n[i][j]->setRight(n[i][j+1]);  
             }
         }
-    }
+    }*/
     return n;
 }
 

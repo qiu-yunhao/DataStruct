@@ -286,6 +286,3 @@ LinkList Link_heji(LinkList A,LinkList B){
     }
     return head;
 }
-int main() {
-    return 0;
-}

@@ -18,6 +18,6 @@ int main(){
 		y = z;
 		z = t;
 	}
-	cout<< "×î´óÊı£º"<<x <<endl <<"ÖĞ¼äÊı£º"<< y <<endl <<"×îĞ¡Êı£º" << z<<endl;
+	cout<< "æœ€å¤§æ˜¯"<<x <<endl <<"æ¬¡å¤§æ˜¯"<< y <<endl <<"æœ€å°æ˜¯" << z<<endl;
 	return 0;
 }
